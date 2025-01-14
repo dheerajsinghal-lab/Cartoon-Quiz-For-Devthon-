@@ -75,11 +75,11 @@ body {
 }
 
 .correct{
-    background: #64E3A1;
+    background: green;
     color: white;
 }
 
 .incorrect{
-   background: #FF474C;
+   background: red;
    color: white;
 }
