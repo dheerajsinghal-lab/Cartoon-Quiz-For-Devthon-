@@ -3,27 +3,24 @@ body {
     padding: 0;
     font-family: 'Arial', sans-serif;
     box-sizing: border-box;
-    background-image: url("https://images.app.goo.gl/cpQr7GBPqtW3R3oK9.jpg"); /* Use a URL to a cartoon background image */
+    background-image: url("https://images.app.goo.gl/f5KgLyGwb3VhjXMPA.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay to make text readable */
-    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.5);
+        background-blend-mode: multiply;
 }
 
-/* App Container */
-.app {
+.app{
     background: white;
     width: 90%;
     max-width: 600px;
     margin: 100px auto 0;
     border-radius: 10px;
     padding: 30px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
 }
 
-/* Title */
-.app h1 {
+.app h1{
     font-size: 25px;
     color: #222;
     font-weight: 600;
@@ -31,19 +28,17 @@ body {
     padding-bottom: 30px;
 }
 
-/* Quiz Section */
-.quiz {
+.quiz{
     padding: 20px 0;
 }
 
-.quiz h2 {
+.quiz h2{
     font-size: 18px;
     color: #222;
     font-weight: 500;
 }
 
-/* Button Styling */
-.btn {
+.btn{
     background: white;
     color: #222;
     font-weight: 500;
@@ -54,37 +49,19 @@ body {
     text-align: left;
     border-radius: 4px;
     cursor: pointer;
-    transition: all 0.3s;
 }
 
-/* Correct Button Color */
-.correct {
-    background: #64E3A1; /* Light Green */
-    color: white;
-}
-
-/* Incorrect Button Color */
-.incorrect {
-    background: #FF474C; /* Light Red */
-    color: white;
-}
-
-/* Button Hover Effect */
-.btn:hover:not([disabled]) {
+.btn:hover:not([disabled]){
     background: #222;
     color: white;
     transition: all 0.3s;
 }
 
-/* Disabled Button (when Next button is clicked) */
-.btn:disabled {
-    cursor: not-allowed;
-    background: #dcdcdc;
-    color: #888;
+.btn:disabled{
+    cursor: no-drop;
 }
 
-/* Next Button */
-#next-btn {
+#next-btn{
     background: #222;
     color: white;
     font-weight: 500;
@@ -95,20 +72,14 @@ body {
     border-radius: 4px;
     cursor: pointer;
     display: block;
-    transition: all 0.3s;
 }
 
-#next-btn:hover {
-    background: #ff7e5f;
+.correct{
+    background: #64E3A1;
+    color: white;
 }
 
-#next-btn:disabled {
-    cursor: not-allowed;
-    background: #dcdcdc;
-}
-
-/* Response Text */
-.response {
-    font-size: 1.2em;
-    margin-top: 10px;
+.incorrect{
+   background: #FF474C;
+   color: white;
 }
