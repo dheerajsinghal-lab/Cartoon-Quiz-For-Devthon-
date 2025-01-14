@@ -1,6 +1,6 @@
 const questions = [
     {
-        question: "Which cartoon character is known for his catchphrase, “What’s up, doc?”",
+        question: "Which cartoon character is known for his catchphrase, “What’s up, doc ?”",
         answers: [
             { text: "Mickey Mouse", correct: false },
             { text: "Bugs Bunny", correct: true },
